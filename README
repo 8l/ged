@@ -1,0 +1,35 @@
+The ged lightweight text edito
+
+Benjamin Good and James Hartzell
+
+INTRODUCTION
+============
+We developed ged to be a simple light-weight text editor using the gtk+
+library. It is designed as a lighter replacement for gedit.
+
+INSTALLATION
+============
+
+There are two versions of ged in this release; the C version, and the Python
+version. The C version handles multiple windows better, and in line with
+Gnome applications such as AbiWord (i.e. File=>New creates a new window). 
+
+To install the python version, mark ged.py executable, and copy it to an
+appropriate location with an appropriate name (e.g. /usr/local/bin/ged).
+
+To install the C version, run make, and copy the resulting executable "ged"
+to an appropriate location (e.g. /usr/local/bin).
+
+USAGE
+=====
+
+This program only creates one window per document, but the windows have one
+shared instance. They can be treated as though they were entirely independent,
+however. Files can be opened using the "open" menu item, or by specifying them
+as arguments on the command line.
+
+COPYING
+=======
+
+Ged is released under the GNU Public License (GPL) version 2.  
+See the file COPYING for more information.
